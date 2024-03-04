@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    
+    
+    
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CalculatorApp.MainPage">
+
+    <Grid RowDefinitions="*,*,*,*,*,*"
+          ColumnDefinitions="*,*,*,*"
+          BackgroundColor="Lavender"
+          Padding="10">
+
+        <Label Background="White"
+        x:Name="text"
+        FontSize="20"
+        TextColor="Black"
+        TextType="Text"
+        Grid.Row="0"
+        Grid.Column="0"
+        Grid.ColumnSpan="4"
+        HeightRequest="70"></Label>
+
+
+        <Button BackgroundColor="Gray"
+       Grid.Column="0"
+       Grid.Row="1"
+       HeightRequest="80"
+       WidthRequest="80"
+       CornerRadius="50"
+       Text="AC"
+       FontSize="30"
+       Clicked="Clear"></Button>
+
+
+            <Button BackgroundColor="Orange"
+       Grid.Column="3"
+       Grid.Row="1"
+       HeightRequest="80"
+       WidthRequest="80"
+       CornerRadius="50"
+       Text="÷"
+       FontSize="30"
+       Clicked="Operator"></Button>
+
+            <Button BackgroundColor="Gray"
+       Grid.Column="0"
+       Grid.Row="2"
+       HeightRequest="80"
+       WidthRequest="80"
+       CornerRadius="50"
+       Text="7"
+       FontSize="30"
+       Clicked="Button_Clicked"></Button>
+
+            <Button BackgroundColor="Gray"
+       Grid.Column="1"
+       Grid.Row="2"
+       HeightRequest="80"
+       WidthRequest="80"
+       CornerRadius="50"
+       Text="8"
+       FontSize="30"
+       Clicked="Button_Clicked"></Button>
+
+            <Button BackgroundColor="Gray"
+       Grid.Column="2"
+       Grid.Row="2"
+       HeightRequest="80"
+       WidthRequest="80"
+       CornerRadius="50"
+       Text="9"
+       FontSize="30"
+       Clicked="Button_Clicked"></Button>
+
+            <Button BackgroundColor="Orange"
+       Grid.Column="3"
+       Grid.Row="2"
+       HeightRequest="80"
+       WidthRequest="80"
+       CornerRadius="50"
+       Text="X"
+       FontSize="30"
+       Clicked="Operator"></Button>
+
+            <Button BackgroundColor="Gray"
+       Grid.Column="0"
+       Grid.Row="3"
+       HeightRequest="80"
+       WidthRequest="80"
+       CornerRadius="50"
+       Text="4"
+       FontSize="30"
+       Clicked="Button_Clicked"></Button>
+
+            <Button BackgroundColor="Gray"
+       Grid.Column="1"
+       Grid.Row="3"
+       HeightRequest="80"
+       WidthRequest="80"
+       CornerRadius="50"
+       Text="5"
+       FontSize="30"
+       Clicked="Button_Clicked"></Button>
+
+            <Button BackgroundColor="Gray"
+       Grid.Column="2"
+       Grid.Row="3"
+       HeightRequest="80"
+       WidthRequest="80"
+       CornerRadius="50"
+       Text="6"
+       FontSize="30"
+       Clicked="Button_Clicked"></Button>
+
+            <Button BackgroundColor="Orange"
+       Grid.Column="3"
+       Grid.Row="3"
+       HeightRequest="80"
+       WidthRequest="80"
+       CornerRadius="50"
+       Text="-"
+       FontSize="30"
+       Clicked="Operator"></Button>
+
+            <Button BackgroundColor="Gray"
+       Grid.Column="0"
+       Grid.Row="4"
+       HeightRequest="80"
+       WidthRequest="80"
+       CornerRadius="50"
+       Text="1"
+       FontSize="30"
+       Clicked="Button_Clicked"></Button>
+
+            <Button BackgroundColor="Gray"
+       Grid.Column="1"
+       Grid.Row="4"
+       HeightRequest="80"
+       WidthRequest="80"
+       CornerRadius="50"
+       Text="2"
+       FontSize="30"
+       Clicked="Button_Clicked"></Button>
+
+            <Button BackgroundColor="Gray"
+       Grid.Column="2"
+       Grid.Row="4"
+       HeightRequest="80"
+       WidthRequest="80"
+       CornerRadius="50"
+       Text="3"
+       FontSize="30"
+       Clicked="Button_Clicked"></Button>
+
+            <Button BackgroundColor="Orange"
+       Grid.Column="3"
+       Grid.Row="4"
+       HeightRequest="80"
+       WidthRequest="80"
+       CornerRadius="50"
+       Text="+"
+       FontSize="30"
+       Clicked="Operator"></Button>
+
+            <Button BackgroundColor="Gray"
+       Grid.Column="0"
+       Grid.Row="5"
+       HeightRequest="80"
+       WidthRequest="190"
+       CornerRadius="50"
+       Grid.ColumnSpan="2"
+       Text="0"
+       FontSize="30"
+       Clicked="Button_Clicked"></Button>
+
+
+            <Button BackgroundColor="Orange"
+       Grid.Column="3"
+       Grid.Row="5"
+       HeightRequest="80"
+       WidthRequest="80"
+       CornerRadius="50"
+       Text="="
+       FontSize="30"
+       Clicked="Result"></Button>
+
+        </Grid>
+
+</ContentPage>
